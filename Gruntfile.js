@@ -5,7 +5,7 @@ module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
   // Show elapsed time at the end
   require('time-grunt')(grunt);
-
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
   // Project configuration.
   grunt.initConfig({
     // Metadata.
@@ -18,6 +18,13 @@ module.exports = function (grunt) {
     // Task configuration.
     clean: {
       files: ['dist']
+    },
+    cssmin: {
+      combine: {
+        files: {
+          'dist/styles/jquery.<%= pkg.name %>.css': ['src/styles/<%= pkg.name %>.css']
+        }
+      }
     },
     concat: {
       options: {

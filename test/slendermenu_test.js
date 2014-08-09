@@ -20,7 +20,7 @@
       throws(block, [expected], [message])
   */
 
-  module('jQuery#awesome', {
+  module('jQuery#slenmenu', {
     // This will run before each test in this module.
     setup: function() {
       this.elems = $('#qunit-fixture').children();
@@ -30,33 +30,27 @@
   test('is chainable', function() {
     expect(1);
     // Not a bad test to run on collection methods.
-    strictEqual(this.elems.awesome(), this.elems, 'should be chainable');
+    strictEqual(this.elems.slenmenu(), this.elems, 'should be chainable');
   });
 
-  test('is awesome', function() {
+  test('is slenmenu', function() {
     expect(1);
-    strictEqual(this.elems.awesome().text(), 'awesome0awesome1awesome2', 'should be awesome');
+    strictEqual(this.elems.slenmenu().text(), 'slenmenu0slenmenu1slenmenu2', 'should be slenmenu');
   });
 
-  module('jQuery.awesome');
+  module('jQuery.slenmenu');
 
-  test('is awesome', function() {
+  test('is slenmenu', function() {
     expect(2);
-    strictEqual($.awesome(), 'awesome.', 'should be awesome');
-    strictEqual($.awesome({punctuation: '!'}), 'awesome!', 'should be thoroughly awesome');
+    strictEqual($.slenmenu(), 'slenmenu.', 'should be slenmenu');
+    strictEqual($.slenmenu({punctuation: '!'}), 'slenmenu!', 'should be thoroughly slenmenu');
   });
 
-  module(':awesome selector', {
+  module(':slenmenu selector', {
     // This will run before each test in this module.
     setup: function() {
       this.elems = $('#qunit-fixture').children();
     }
   });
-
-  test('is awesome', function() {
-    expect(1);
-    // Use deepEqual & .get() when comparing jQuery objects.
-    deepEqual(this.elems.filter(':awesome').get(), this.elems.last().get(), 'knows awesome when it sees it');
-  });
-
+  
 }(jQuery));
