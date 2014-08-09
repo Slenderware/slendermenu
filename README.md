@@ -1,4 +1,0 @@
-slendermenu
-===========
-
-Responsive Left menu
