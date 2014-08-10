@@ -20,7 +20,7 @@
       throws(block, [expected], [message])
   */
 
-  module('jQuery#slenmenu', {
+  module('jQuery#slenselect', {
     // This will run before each test in this module.
     setup: function() {
       this.elems = $('#qunit-fixture').children();
@@ -30,27 +30,18 @@
   test('is chainable', function() {
     expect(1);
     // Not a bad test to run on collection methods.
-    strictEqual(this.elems.slenmenu(), this.elems, 'should be chainable');
+    strictEqual(this.elems.slenselect(), this.elems, 'should be chainable');
   });
 
-  test('is slenmenu', function() {
+  /*test('open of menu works', function() {
     expect(1);
-    strictEqual(this.elems.slenmenu().text(), 'slenmenu0slenmenu1slenmenu2', 'should be slenmenu');
-  });
+    
+    var elem = document.createElement("slenmenu");
+    elem.addClass('slenmenu');
 
-  module('jQuery.slenmenu');
+    this.elems.slenselect().click();  
 
-  test('is slenmenu', function() {
-    expect(2);
-    strictEqual($.slenmenu(), 'slenmenu.', 'should be slenmenu');
-    strictEqual($.slenmenu({punctuation: '!'}), 'slenmenu!', 'should be thoroughly slenmenu');
-  });
-
-  module(':slenmenu selector', {
-    // This will run before each test in this module.
-    setup: function() {
-      this.elems = $('#qunit-fixture').children();
-    }
-  });
+    strictEqual(elem.hasClass('closed'), true, 'should be closed');
+  });*/
   
 }(jQuery));

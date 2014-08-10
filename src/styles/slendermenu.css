@@ -1,3 +1,73 @@
-#slenmenu{
-	background:#fff;
+body{
+	margin: 0px;
 }
+
+.slenmenu{
+	background:#efefef;	
+	height:100%;
+	float:left;
+	width:15em;
+
+	-webkit-box-shadow: inset 0 0 5px 5px #ebebeb;
+	-moz-box-shadow: inset 0 0 5px 5px #ebebeb;
+	box-shadow: inset 0 0 5px 5px #ebebeb;
+}
+
+.slenmenu div{
+	background:#efefef;	
+	height:3em;
+}
+
+.slenmenu ul{
+	margin:0em;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-padding-start: 0px;
+	cursor:pointer;
+}
+
+.slenmenu ul li{
+	display: block;
+	margin: 0;
+	line-height: 48px;	
+	background:#efefef;	
+	border-bottom: 1px solid #dfdfdf;	
+	cursor:pointer;
+	height:3em;
+}
+
+.slenmenu ul li:hover {
+	background:#e8e8e8;	
+}
+
+.slenmenu ul li a{
+	padding: 0 15px;	
+	text-decoration: none;
+	color: #333;
+	cursor:pointer;
+}
+
+
+.closed{
+	width:4em;		
+}
+
+.closed a{
+	width:4em;
+	display:none;		
+}
+
+@media only screen and (max-width: 480px) { 
+	.slenmenu{
+		background:#ecf0f1;	
+		height:100%;
+		float:left;
+		width:100%;
+	}
+
+	.closed{
+		width:4em;
+	}
+}
+
+
