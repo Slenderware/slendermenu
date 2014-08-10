@@ -10,7 +10,7 @@ body{
 	overflow-y: auto;
 	-webkit-box-shadow: inset -6px 0 5px -2px #e0e0e0;
 	-moz-box-shadow: inset -6px 0 5px -2px #e0e0e0;	
-	box-shadow: inset -6px 0 5px -2px #e0e0e0;	
+	box-shadow: inset -6px 0 5px -2px #e0e0e0;		
 
 	/*Slide animation*/
 	-webkit-transition:width 300ms ease-in-out;
@@ -25,7 +25,8 @@ body{
 	height:3em;	
 }
 
-.slenmenu ul{
+.slenmenu ul{	
+	padding-left: 0em;
 	margin:0em;
 	-webkit-margin-before: 0em;
 	-webkit-margin-after: 0em;
@@ -43,7 +44,8 @@ body{
 	cursor:pointer;
 	height:3em;
 	padding-left: 1.3em;
-
+	overflow:hidden;
+	
 	-webkit-box-shadow: inset -6px 0 5px -2px #e0e0e0;
 	-moz-box-shadow: inset -6px 0 5px -2px #e0e0e0;
 	box-shadow: inset -6px 0 5px -2px #e0e0e0;
@@ -72,6 +74,7 @@ body{
 
 .closed{
 	width:4em;
+	overflow-x:hidden;
 }
 
 .closed a{	
