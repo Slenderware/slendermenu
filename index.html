@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html style="height:100%;>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -7,6 +7,9 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+	<link rel="stylesheet" href="stylesheets/jquery.slendermenu.css"/>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	
     <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
@@ -14,8 +17,68 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
-  <body>
-    <div class="wrapper">
+  <body style="padding:0px;height:100%;">
+  
+	  <div class='slenmenu'>
+		<ul>
+			<li>
+				<i class="fa fa-automobile fa-lg"></i> <a>Menu item #1</a>
+			</li>
+			<li>
+				<i class="fa fa-camera-retro fa-lg"></i> <a>Menu item #2</a>
+			</li>
+			<li>
+				<i class="fa fa-bank fa-lg"></i> <a>Menu item #3</a>
+			</li>
+			<li>
+				<i class="fa fa-bomb fa-lg"></i> <a>Menu item #4</a>
+			</li>
+			<li>
+				<i class="fa fa-delicious fa-lg"></i> <a>Menu item #5</a>
+			</li>
+			<li>
+				<i class="fa fa-cloud fa-lg"></i> <a>Menu item #6</a>
+			</li>
+			<li>
+				<i class="fa fa-cube fa-lg"></i> <a>Menu item #7</a>
+			</li>
+			<li>
+				<i class="fa fa-compass fa-lg"></i> <a>Menu item #8</a>
+			</li>
+			<li>
+				<i class="fa fa-desktop fa-lg"></i> <a>Menu item #9</a>
+			</li>
+			<li>
+				<i class="fa fa-comments fa-lg"></i> <a>Menu item #10</a>
+			</li>
+			<li>
+				<i class="fa fa-building fa-lg"></i> <a>Menu item #11</a>
+			</li>
+			<li>
+				<i class="fa fa-cutlery fa-lg"></i> <a>Menu item #12</a>
+			</li>
+			<li>
+				<i class="fa fa-folder fa-lg"></i> <a>Menu item #13</a>
+			</li>
+			<li>
+				<i class="fa fa-gear fa-lg"></i> <a>Menu item #14</a>
+			</li>
+			<li>
+				<i class="fa fa-gavel fa-lg"></i> <a>Menu item #15</a>
+			</li>
+			<li>
+				<i class="fa fa-glass fa-lg"></i> <a>Menu item #16</a>
+			</li>
+			<li>
+				<i class="fa fa-envelope fa-lg"></i> <a>Menu item #17</a>
+			</li>
+			<li>
+				<i class="fa fa-legal fa-lg"></i> <a>Menu item #18</a>
+			</li>	
+		</ul>
+	</div>
+  
+    <div class="wrapper" style="float: left;margin-left: 1px;width: 84.7%;height:100%;overflow-y:scroll">
       <header>
         <h1>Slendermenu</h1>
         <p>Responsive Left menu</p>
@@ -30,20 +93,20 @@
         <h3>
 <a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to SlenderMenu.</h3>
 
-<p>Slender Menu is a responsive jquery-based left menu built for dashboard-like web applications. Slender Menu runs on all smart mobile devices. This menu works with bootstrap and supports FontAwesome.</p>
+<p>Slender Menu is a responsive jquery-based left menu built for dashboard-like web applications. Slender Menu runs on all smart mobile devices. This menu works with bootstrap and supports FontAwesome. <button id="selector">Toggle Menu</button></p>
 
 <h3>Example</h3>
 
 <p>Include the css:</p>
 
 <xmp>
-```<link rel="stylesheet" type="text/css" href="/styles/jquery.slendermenu.css"/>```
+<link rel="stylesheet" type="text/css" href="css/jquery.slendermenu.css"/>
 </xmp>
 
 <p>Include the css:</p>
 
 <xmp>
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
 </xmp>
 
 <p>The html:</p>
@@ -65,8 +128,8 @@
 <p>Include jquery and jquery.slendermenu.js scripts</p>
 
 <xmp>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.slendermenu.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.slendermenu.min.js"></script>
 </xmp>
 
 <p>Attach script to button:</p>
@@ -85,11 +148,16 @@
 <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
 <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
     </div>
-    <footer>
-      <p>Project maintained by <a href="https://github.com/nikrich">nikrich</a></p>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
+
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
   </body>
+  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/jquery.slendermenu.min.js"></script>
+
+  <script>
+    $("#selector").slenselect();
+</script>
+
 </html>
