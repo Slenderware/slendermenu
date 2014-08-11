@@ -1,7 +1,38 @@
 Slender Menu
 ===========
 
-Slender Menu is a responsive left menu built for dashboard-like web applications. Slender Menu runs on all smart mobile devices.
+Slender Menu is a responsive jquery-based left menu built for dashboard-like web applications. Slender Menu runs on all smart mobile devices. This menu works with bootstrap and supports FontAwesome. 
+
+Tutorial
+==========
+
+
+<head>
+  <link rel="stylesheet" type="text/css" href="/styles/jquery.slendermenu.css"/>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<head>
+<body>
+<div class='slenmenu'>
+	<ul>
+		<li>
+			<i class="fa fa-camera-retro fa-lg"></i> <a>Menu item</a>
+		</li>
+		<li>
+			<i class="fa fa-camera-retro fa-lg"></i> <a>Menu item</a>
+		</li>
+	</ul>
+</div>
+<button id="selector">Toggle</button>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.slendermenu.min.js"></script>
+<script>
+	$("#selector").slenselect();
+</script>
+
+</body>
+
+
+
 
 Demo
 ===========
