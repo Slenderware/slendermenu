@@ -6,12 +6,16 @@ Slender Menu is a responsive jquery-based left menu built for dashboard-like web
 Example
 ==========
 
+Include the css:
 ```
-<head>
-  <link rel="stylesheet" type="text/css" href="/styles/jquery.slendermenu.css"/>
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-<head>
-<body>
+<link rel="stylesheet" type="text/css" href="/styles/jquery.slendermenu.css"/>
+```
+FontAwesome(optional):
+```
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+```
+The html
+```
 <div class='slenmenu'>
 	<ul>
 		<li>
@@ -23,16 +27,18 @@ Example
 	</ul>
 </div>
 <button id="selector">Toggle</button>
+```
+Include jquery and jquery.slendermenu.js scripts:
+```
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.slendermenu.min.js"></script>
+```
+Attach script to button:
+```
 <script>
 	$("#selector").slenselect();
 </script>
-
-</body>
 ```
-
-
 
 Demo
 ===========
