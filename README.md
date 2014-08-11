@@ -40,6 +40,8 @@ Attach script to button:
 </script>
 ```
 
+For the full example <a href='https://gist.github.com/nikrich/e299ab3bbdacb28f32d4'>click here</a>
+
 Demo
 ===========
 http://nikrich.github.io/slendermenu
