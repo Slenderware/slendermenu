@@ -1,8 +1,12 @@
-slendermenu
+Slender Menu
 ===========
 
-Responsive Left menu
+Slender menu is a responsive left menu built for dashboard-like web application. Slender Menu runs on all smart mobile devices.
 
-Example
+Demo
 ===========
 http://nikrich.github.io/slendermenu
+
+Licensing
+===========
+MIT
