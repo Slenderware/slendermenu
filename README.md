@@ -6,7 +6,7 @@ Slender Menu is a responsive jquery-based left menu built for dashboard-like web
 Tutorial
 ==========
 
-
+```
 <head>
   <link rel="stylesheet" type="text/css" href="/styles/jquery.slendermenu.css"/>
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
@@ -30,7 +30,7 @@ Tutorial
 </script>
 
 </body>
-
+```
 
 
 
