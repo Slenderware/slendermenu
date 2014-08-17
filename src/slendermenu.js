@@ -16,11 +16,17 @@
       {
         $(".slenmenu")
         .removeClass("closed");
+
+        $(".contentarea")
+        .removeClass("contentclosed");
       }
       else
       {
         $(".slenmenu")        
         .addClass( "closed" );
+
+         $(".contentarea")
+        .addClass("contentclosed");
       }
     });
      return this;

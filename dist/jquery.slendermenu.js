@@ -1,4 +1,4 @@
-/*! slendermenu - v0.0.1 - 2014-08-10
+/*! slendermenu - v0.0.1 - 2014-08-17
 * https://github.com/nikrich/slendermenu
 * Copyright (c) 2014 Jannik Richter; Licensed MIT */
 (function ($) {
@@ -11,11 +11,17 @@
       {
         $(".slenmenu")
         .removeClass("closed");
+
+        $(".contentarea")
+        .removeClass("contentclosed");
       }
       else
       {
         $(".slenmenu")        
         .addClass( "closed" );
+
+         $(".contentarea")
+        .addClass("contentclosed");
       }
     });
      return this;

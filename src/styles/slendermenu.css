@@ -20,6 +20,26 @@ body{
     animation-fill-mode: forwards;
 }
 
+/*Main area*/
+.contentarea{
+	float: left;
+	margin-left: 1px;
+	width: calc(100% - 256px);
+	height:100%;
+	overflow-y:scroll;
+
+	/*Slide animation*/
+	-webkit-transition:width 300ms ease-in-out;
+    -moz-transition:width 300ms ease-in-out;
+    -o-transition:width 300ms ease-in-out;
+    transition:width 300ms ease-in-out; 
+    animation-fill-mode: forwards;
+}
+
+.contentclosed{
+	width: calc(100% - 4.3em) !important;
+}
+
 .slenmenu div{
 	background:#efefef;	
 	height:3em;	
@@ -91,5 +111,13 @@ body{
 
 	.closed{
 		width:4em;
+	}
+
+	.contentarea{	
+		width: 100% !important;	
+	}
+
+	.contentclosed{
+		width: 100% !important;	
 	}
 }
