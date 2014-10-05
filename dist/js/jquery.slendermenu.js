@@ -1,4 +1,4 @@
-/*! slendermenu - v0.0.1 - 2014-08-17
+/*! slendermenu - v0.0.1 - 2014-10-05
 * https://github.com/nikrich/slendermenu
 * Copyright (c) 2014 Jannik Richter; Licensed MIT */
 (function ($) {

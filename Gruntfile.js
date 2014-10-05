@@ -22,7 +22,7 @@ module.exports = function (grunt) {
     cssmin: {
       combine: {
         files: {
-          'dist/styles/jquery.<%= pkg.name %>.css': ['src/styles/<%= pkg.name %>.css']
+          'dist/css/jquery.<%= pkg.name %>.css': ['src/styles/<%= pkg.name %>.css']
         }
       }
     },
@@ -33,7 +33,7 @@ module.exports = function (grunt) {
       },
       dist: {
         src: ['src/<%= pkg.name %>.js'],
-        dest: 'dist/jquery.<%= pkg.name %>.js'
+        dest: 'dist/js/jquery.<%= pkg.name %>.js'
       }
     },
     uglify: {
@@ -42,7 +42,7 @@ module.exports = function (grunt) {
       },
       dist: {
         src: '<%= concat.dist.dest %>',
-        dest: 'dist/jquery.<%= pkg.name %>.min.js'
+        dest: 'dist/js/jquery.<%= pkg.name %>.min.js'
       }
     },
     qunit: {
