@@ -45,6 +45,11 @@ body{
 	height:3em;	
 }
 
+.slenmenu div img{
+	height:2.5em;
+	margin:0.3em;
+}
+
 .slenmenu ul{	
 	padding-left: 0em;
 	margin:0em;
