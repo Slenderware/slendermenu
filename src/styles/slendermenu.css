@@ -77,7 +77,7 @@ body{
 }
 
 
-.slenmenu ul li active {
+.slenmenu ul li.active {
 	background:#e8e8e8;	
 	border-top: 1px solid #dfdfdf;
 }
