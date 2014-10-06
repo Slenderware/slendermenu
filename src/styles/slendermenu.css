@@ -76,6 +76,13 @@ body{
 	border-top: 1px solid #dfdfdf;
 }
 
+
+.slenmenu ul li active {
+	background:#e8e8e8;	
+	border-top: 1px solid #dfdfdf;
+}
+
+
 .slenmenu ul li a{		
 	text-decoration: none;	
 	color: #333;
