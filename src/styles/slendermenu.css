@@ -109,6 +109,10 @@ body{
 	overflow-x:hidden;
 }
 
+.slenmenu.hidden{
+	width:0em;
+	overflow-x:hidden;
+}
 .slenmenu.closed a{	
 	opacity: 0 !important;	
 }
