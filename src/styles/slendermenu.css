@@ -102,6 +102,7 @@ body{
 
 .slenmenu ul li i{
 	padding-top:0.8em;
+	color: #333;
 }
 
 .slenmenu.closed{
@@ -113,7 +114,7 @@ body{
 	width:0em;
 	overflow-x:hidden;
 }
-.slenmenu.closed a{	
+.slenmenu.closed span{	
 	opacity: 0 !important;	
 }
 
