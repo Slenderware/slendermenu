@@ -104,6 +104,10 @@ body{
 	text-decoration: none;	
 }
 
+.slenmenu ul li span a:focus{	
+	text-decoration: none;	
+}
+
 .slenmenu ul li i{
 	padding-top:0.8em;
 	color: #333;
