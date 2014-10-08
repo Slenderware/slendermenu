@@ -19,10 +19,10 @@ The html
 <div class='slenmenu'>
 	<ul>
 		<li>
-			<i class="fa fa-camera-retro fa-lg"></i> <a>Menu item</a>
+			<i class="fa fa-camera-retro fa-lg"></i> <span>Menu item</span>
 		</li>
 		<li>
-			<i class="fa fa-camera-retro fa-lg"></i> <a>Menu item</a>
+			<i class="fa fa-camera-retro fa-lg"></i> <span>Menu item</span>
 		</li>
 	</ul>
 </div>
