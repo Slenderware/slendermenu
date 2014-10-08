@@ -100,8 +100,9 @@ body{
     -webkit-transition: opacity 0.1s 0.06s ease-in;	
 }
 
-.slenmenu ul li span a{	
-	text-decoration: none;	
+.slenmenu a{	
+	text-decoration: none !important;	
+	outline: none !important;
 }
 
 .slenmenu ul li span a:focus{	
