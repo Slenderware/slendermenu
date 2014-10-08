@@ -104,25 +104,26 @@ body{
 	padding-top:0.8em;
 }
 
-.closed{
+.slenmenu.closed{
 	width:4em;
 	overflow-x:hidden;
 }
 
-.closed a{	
+.slenmenu.closed a{	
 	opacity: 0 !important;	
 }
 
 @media only screen and (max-width: 480px) { 
 	.slenmenu{
 		background:#ecf0f1;	
-		height:100%;
+		height:auto;
 		float:left;
 		width:100%;
 	}
 
-	.closed{
+	.slenmenu.closed{
 		width:4em;
+		height:100%;
 	}
 
 	.contentarea{	
