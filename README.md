@@ -1,6 +1,7 @@
 Slender Menu 0.0.1
 ===========
 [![Build Status](https://travis-ci.org/Slenderware/slendermenu.svg?branch=master)](https://travis-ci.org/Slenderware/slendermenu)
+
 Slender Menu is a responsive jquery-based left menu built for dashboard-like web applications. Slender Menu runs on all smart mobile devices and is extremely light (less than 3kb). This menu works with bootstrap and supports FontAwesome. 
 
 Example
